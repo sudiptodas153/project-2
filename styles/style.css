@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+.open-sans{
+  font-family: "Open Sans", serif;
+}
+
+/* color */
+
+.pink-1{
+    color: rgb(248, 8, 156);
+}
+
+.pink-btn{
+    background-color: rgb(248, 8, 156);
+}
+
+
+
+/* nav style */
+
+
+header{
+    background-image: url('../images/developer.png') , url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:  left, right bottom;
+    background-size: 60px , 600px;
+   
+    background-color: rgba(248, 8, 156, 0.062);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.959);
+}
+
+
+.name{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+
+.hire-btn{
+    width: 80px;
+    height: 35px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+
+/* banner style */
+
+.banner{
+    margin: 0 20px 0 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.banner-image{
+    width: 350px;
+}
+
+
+.greting{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.959);
+}
+
+
+.name-2{
+    font-size: 50px;
+}
+
+.dark-2{
+    color: rgba(58, 55, 55, 0.555);
+}
+
+
+.btn-primary{
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    color: white;
+}
+
+.privet-btn{
+    border: 2px solid rgb(248, 8, 156);
+    color: rgb(248, 8, 156);
+}
