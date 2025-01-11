@@ -190,3 +190,77 @@ main{
     padding: 15px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+
+
+/* summary */
+
+.summary-section{
+    margin-top: 60px;
+}
+
+.summary-section > .about-title{
+    text-align: center;
+}
+
+
+.education-me{
+    display: flex;
+    gap: 30px;
+}
+
+.title-no{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.school{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.692);
+}
+
+.btn-sm{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgba(248, 8, 156, 0.062);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+.foot-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.foot{
+    padding-right: 100px;
+}
+
+
+.input-footer{
+    width: 280px;
+    border: none;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.text-area{
+    border: none;
+    margin-bottom: 10px;
+    padding: 6px;
+    font-size: 12px;
+}
